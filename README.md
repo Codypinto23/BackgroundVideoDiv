@@ -45,4 +45,6 @@ In the area you want to play a video, drop in the Background Video container:
                                                    </h1>
                                                </div>
                                            </div>
+                                               }
+                                       />
 ```
