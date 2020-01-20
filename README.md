@@ -1,8 +1,18 @@
 # BackgroundVideoDiv
 A Div that plays a video (and loading image) behind some content you want to present
 
+## Params
 
-##Sample
+* loadingImage: Image to display while video loads
+* videoUrl: Video to display
+* minHeight: Min Height of total content display
+* maxHeight: Max Height of total content display
+* videoHeight: Height of the video to be displayed
+* isMobile: boolean, adjusts height of grey overlay for video
+* contentToPresent: Provide html you wish to display on top of video here
+
+
+## Sample
 
 In the area you want to play a video, drop in the Background Video container:
 
