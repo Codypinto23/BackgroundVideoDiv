@@ -35,37 +35,7 @@ const BackgroundVideo=({loadingImage, videoUrl,minHeight,maxHeight,isMobile,vide
             alignItems: "center",
             padding: 0
         }
-        /*.SubContent {
-            text-align: center;
-            padding: 10px;
-        }
-        .SubContent p {
-            color: #eeeeeead;
-            font-size: 1.3rem;
-        }
-        .SubContent button {
-            font-weight: bold;
-            margin-top: 30px;
-            color: #f1f1f1;
-            border: #f1f1f1 1px solid;
-            padding: 10px 5px;
-            background-color: hsla(0, 0%, 0%, 0);
-            font-size: 1.25rem;
-            border-radius: 5px;
-        }
-        .SubContent button:hover {
-            background-color: #f1f1f1;
-            color: #000000c0;
-        }
 
-        .SubContent img {
-            width: 200px;
-            height: 200px;
-            border-radius: 50%;
-            display: block;
-            margin: 15px auto;
-            border: #f1f1f1 1px solid;
-        }*/
     }
 
     console.log("videoUrl",videoUrl)
