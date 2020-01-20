@@ -1,2 +1,38 @@
 # BackgroundVideoDiv
 A Div that plays a video (and loading image) behind some content you want to present
+
+
+##Sample
+
+In the area you want to play a video, drop in the Background Video container:
+
+```
+<BackgroundVideo
+            loadingImage={"https://images.pexels.com/photos/3380967/pexels-photo-3380967.jpeg?cs=srgb&dl=red-pagoda-temple-3380967.jpg&fm=jpg"}
+            videoUrl={"https://www.w3schools.com/tags/movie.mp4"}
+            minHeight={"220px"}
+            maxHeight={"1600px"}
+            videoHeight={"40vh"}
+            isMobile={true}
+            contentToPresent={<div style={{
+                                               height: "100%",
+                                               width: "100%",
+                                               minHeight: "220px",
+                                               maxHeight: "1600px",
+                                               margin: "auto",
+                                               position: "relative",
+                                          }}>
+                               <div style={{padding: "142px 24px 24px 24px"}}>
+                                             <h1 style={{
+                                                       marginTop: "24px",
+                                                       fontWeight: "800",
+                                                       color: "#ffffff",
+                                                       fontSize: "34px",
+                                                       fontFamily: "Circular, -apple-system, BlinkMacSystemFont, Roboto",
+                                                       lineHeight: "36px",
+                                                       letterSpacing: "-1px"
+                                                       }}>Content I care about here
+                                                   </h1>
+                                               </div>
+                                           </div>
+```
