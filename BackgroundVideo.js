@@ -56,7 +56,7 @@ const BackgroundVideo=({loadingImage, videoUrl,minHeight,maxHeight,isMobile,vide
             overflow: "hidden",
             marginBottom: marginBottom
         }}>
-            <video autoPlay="autoplay" loop="loop" muted style={styles.Video} >
+            <video autoPlay="autoplay" playsInline={"playsinline"} loop="loop" muted style={styles.Video} >
                 <source src={videoUrl} type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
